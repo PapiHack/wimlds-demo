@@ -9,6 +9,7 @@
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 Demo project of my talk for Women In Machine Learning & Data Science (WIMLDS) Dakar community on `How to Deploy and Scale AI (ML or DL) Models with Kubernetes`.  
+
 You can find the slides of my talk at <https://meissa-wimlds-presentation.netlify.app>.
 
 ## Description
