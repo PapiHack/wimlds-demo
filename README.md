@@ -58,7 +58,7 @@ If you have `Docker` on your system, you have two options after placing yourself
 
 - First option :
 
-    - Build your image with the name you want it like this :
+    - Build your image with the name you want like this :
 
             docker build . -t salary-prediction-service
 
@@ -68,15 +68,14 @@ If you have `Docker` on your system, you have two options after placing yourself
 
 - Second option :
 
-    - Run the image that i already deploy on `docker hub` with with the following command :
+    - Run the image that i already deploy on `docker hub` with the following command :
 
             docker run -d --name salary-prediction-model -p 5000:5000 papihack/wimlds-demo-model
     
 
 ### Kubernetes
 
-For the deployment of this project on `K8S`, i use a tool named [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/) in order to create local kubernetes cluster.
-You can use also other alternatives like `minikube` if you want it too.
+For the deployment of this project on `K8S`, i use a tool named [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/) in order to create a local kubernetes cluster. You can also use other alternatives like `minikube` if you want it too.
 
 The manifest files are located in the `k8s` folder.
 
